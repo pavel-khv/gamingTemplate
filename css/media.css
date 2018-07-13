@@ -1,0 +1,342 @@
+@media all and (min-width: 1919px) {
+  .navigation {
+    width: 1276px; }
+    .navigation ul {
+      width: 750px; }
+      .navigation ul a {
+        font-size: 22px; }
+  .po-mp {
+    right: 15%; }
+    .po-mp .play-online {
+      height: 280px; }
+    .po-mp .most-popular {
+      height: 350px; }
+    .po-mp div p {
+      font-size: 18px; }
+  .services .service-box {
+    margin: 70px 50px; }
+    .services .service-box h2 {
+      font-size: 24px; }
+    .services .service-box p {
+      width: 300px;
+      font-size: 18px; }
+  .xgames-block {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .xgames-block .welcome {
+      margin: 0 120px; }
+      .xgames-block .welcome p {
+        font-size: 20px; }
+    .xgames-block p {
+      font-size: 18px; }
+  .advantage .advantage-box {
+    margin: 20px 50px; }
+    .advantage .advantage-box h3 {
+      font-size: 24px; }
+    .advantage .advantage-box p {
+      font-size: 18px; }
+  .soc-network {
+    background-position: 150px 0;
+    padding-right: 310px; }
+    .soc-network .au h3, .soc-network .social h3 {
+      font-size: 26px; }
+    .soc-network .au p, .soc-network .social p {
+      font-size: 18px; }
+  footer .contact-detalis {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    footer .contact-detalis .v-line {
+      margin: 0 87px; } }
+
+@media all and (max-width: 1280px) {
+  .xgames-block .welcome {
+    width: 390px; } }
+
+@media all and (max-width: 1200px) {
+  .navigation {
+    width: 976px; }
+    .navigation ul {
+      width: 550px;
+      padding-right: 20px; }
+  .services .service-box {
+    width: 200px;
+    margin: 70px 25px; }
+  .xgames-block {
+    padding: 20px 40px; }
+    .xgames-block .welcome {
+      margin-left: 0; }
+    .xgames-block .first-blog-news {
+      width: 220px; }
+  .advantage .advantage-box .info-box {
+    width: 190px; }
+  .advantage .advantage-box p {
+    width: 170px; }
+  .soc-network {
+    background-position: -80px 0; }
+    .soc-network .au {
+      width: 260px;
+      margin: 40px 20px; }
+    .soc-network .social {
+      margin-right: 50px;
+      margin-left: 20px; } }
+
+footer {
+  padding: 40px 50px 120px; }
+  footer .v-line {
+    margin: 0; }
+
+@media all and (max-width: 1023px) {
+  .navigation {
+    width: 750px; }
+    .navigation ul {
+      width: 450px; }
+      .navigation ul a {
+        font-size: 18px; }
+        .navigation ul a:after {
+          bottom: 48px; }
+        .navigation ul a:hover:after {
+          bottom: 44px; }
+  .po-mp div {
+    padding: 35px 30px; }
+    .po-mp div h1 {
+      font-size: 30px; }
+    .po-mp div a {
+      left: 30px; }
+  .po-mp .play-online {
+    width: 200px;
+    height: 220px; }
+  .po-mp .most-popular {
+    width: 240px;
+    height: 290px; }
+  .services .service-box {
+    width: 240px;
+    margin: 70px 55px; }
+  .xgames-block {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .xgames-block .img-welcome {
+      padding: 0 120px; }
+    .xgames-block .welcome {
+      width: 430px; }
+  .advantage .advantage-box .info-box {
+    width: 165px; }
+  .advantage .advantage-box p {
+    width: 160px;
+    font-size: 15px; }
+  .advantage .advantage-box h3 {
+    font-size: 18px; }
+  .soc-network {
+    background-position: -150px 0; }
+    .soc-network .au {
+      width: 230px;
+      margin: 40px 10px; }
+      .soc-network .au h3 {
+        font-size: 18px; }
+    .soc-network .social {
+      width: 170px;
+      margin: 0 30px; }
+      .soc-network .social h3 {
+        font-size: 18px; }
+    .soc-network .v-line {
+      margin: 0; } }
+
+@media all and (max-width: 950px) {
+  footer .contact-detalis {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    footer .contact-detalis div:nth-child(4) {
+      display: none; }
+    footer .contact-detalis .adress {
+      font-size: 14px;
+      height: 38px; }
+    footer .contact-detalis .email a {
+      font-size: 18px; }
+  footer .v-line {
+    margin-right: 35px; } }
+
+@media all and (max-width: 896px) {
+  .advantage .advantage-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%; }
+    .advantage .advantage-box .info-box {
+      width: 100%;
+      text-align: center; }
+    .advantage .advantage-box .more {
+      display: inline-block;
+      padding-left: 10px; }
+    .advantage .advantage-box p {
+      width: 100%;
+      font-size: 15px; }
+    .advantage .advantage-box h3 {
+      display: block;
+      font-size: 18px; }
+  .soc-network .au {
+    width: 220px;
+    margin: 40px 5px; }
+    .soc-network .au h3 {
+      font-size: 18px; }
+  .soc-network .social {
+    width: 170px;
+    margin: 0 30px; } }
+
+@media all and (max-width: 767px) {
+  .navigation {
+    width: 550px;
+    position: relative; }
+    .navigation .menuTwo {
+      display: inline-block; }
+    .navigation .slideMenu {
+      position: absolute;
+      background: #1F1F1F;
+      width: 100%;
+      top: 87px;
+      left: 0;
+      padding-bottom: 10px;
+      z-index: 2;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+      .navigation .slideMenu ul {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0; }
+        .navigation .slideMenu ul li {
+          text-align: center;
+          padding: 0; }
+        .navigation .slideMenu ul a {
+          line-height: 40px;
+          font-size: 20px; }
+          .navigation .slideMenu ul a:after {
+            display: none; }
+  .xgames-block {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .xgames-block .img-welcome {
+      padding: 0 120px; }
+    .xgames-block .welcome {
+      width: 80%;
+      text-align: center;
+      margin-bottom: 35px; }
+    .xgames-block .first-blog-news {
+      width: 50%;
+      text-align: center;
+      margin-bottom: 30px; }
+      .xgames-block .first-blog-news a {
+        margin: 0 auto;
+        padding-left: 10px; }
+  .soc-network {
+    background-position: -1350px 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .soc-network .au {
+      width: 290px; }
+    .soc-network .v-line {
+      margin: 0 20px; }
+  footer .contact-detalis .v-line {
+    display: none; }
+  footer .contact-detalis .adress p {
+    width: 200px; } }
+
+@media all and (max-width: 639px) {
+  .po-mp {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: 0;
+    margin: 0 auto; }
+    .po-mp .play-online, .po-mp .most-popular {
+      width: 35%; }
+    .po-mp .play-online {
+      height: 180px; }
+    .po-mp div h1 {
+      font-size: 24px; }
+    .po-mp div a {
+      bottom: 25px;
+      left: 50%;
+      margin-left: -42.5px; }
+  .soc-network {
+    padding-bottom: 50px; }
+    .soc-network .au, .soc-network .social {
+      width: 80%;
+      text-align: center; }
+    .soc-network .v-line {
+      display: none; } }
+
+@media all and (max-width: 590px) {
+  body {
+    overflow-x: hidden; }
+  header {
+    overflow: hidden; }
+  .navigation {
+    width: 90%;
+    position: relative; }
+  .po-mp div h1 {
+    font-size: 18px; }
+  .po-mp p {
+    font-size: 15px; }
+  .xgames-block .img-welcome {
+    padding: 0 10px; }
+    .xgames-block .img-welcome img {
+      width: 200px; }
+  .xgames-block .first-blog-news, .xgames-block .welcome {
+    width: 90%; }
+  .services .service-box {
+    width: 300px;
+    margin: 70px 5px; }
+  footer .contact-detalis .email {
+    margin-left: 10px; }
+    footer .contact-detalis .email a {
+      padding-left: 48px; }
+  footer .contact-detalis .adress {
+    padding-left: 55px;
+    width: auto; } }
+
+@media all and (max-width: 479px) {
+  .po-mp {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .po-mp .play-online {
+      width: 75%;
+      height: 150px; }
+    .po-mp .most-popular {
+      width: 75%;
+      height: 180px; }
+    .po-mp div a {
+      bottom: 12px; } }
+
+@media all and (max-width: 400px) {
+  .navigation .logo img {
+    width: 120px; }
+  .xgames-block .welcome h1 {
+    font-size: 48px; }
+  .xgames-block .welcome p {
+    width: 100%; } }
