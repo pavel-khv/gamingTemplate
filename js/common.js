@@ -1,5 +1,5 @@
-const menuTwo = document.querySelector('.menuTwo');
-const menuSlide = document.querySelector('.slideMenu');
+var menuTwo = document.querySelector('.menuTwo');
+var menuSlide = document.querySelector('.slideMenu');
 
 menuTwo.addEventListener('click', function() {
 	menuTwo.classList.toggle("clickMenuTow");
