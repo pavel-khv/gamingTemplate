@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i')
+$main_font : 'Lato', sans-serif
+$redColor : #A50A10
+$grayColor : #1F1F1F
+$grayColorDark: #131313
+$colorP : #636363
+$main_size : 16px
+
+li 
+	list-style: none
+a 
+	text-decoration: none
+html
+	scroll-behavior: smooth
+body
+	width: 100%
+	font-family: $main_font
+header
+	background: url('../img/header-bg.jpg') no-repeat
+	background-position: center
+	width: 100%
+	height: 736px
+	padding-top: 19px
+	position: relative
+	overflow: hidden
+
+.navigation
+	display: flex
+	align-items: center
+	justify-content: space-between
+	height: 88px
+	width: 1170px
+	border-top: 6px solid $redColor
+	background: $grayColor
+	margin: 0 auto
+	margin-top: 3%
+	.logo
+		padding-left: 37px
+	ul
+		display: flex
+		justify-content: space-around
+		padding-right: 37px
+		width: 665px
+		a 
+			position: relative
+			color: $colorP
+			font-size: $main_size + 4px
+			&:after 
+				content: '' 
+				position: absolute /* Абсолютное позиционирование */
+				left: 38% 
+				bottom: 50px /* Положение треугольника */
+				border: 6px solid transparent /* Прозрачные границы */
+				border-top: 6px solid $redColor /* Добавляем треугольник */
+				transition: all 0.5s
+			// &:before
+			// 	content: '' 
+			// 	position: absolute /* Абсолютное позиционирование */
+			// 	left: 38% 
+			// 	bottom: -32px /* Положение треугольника */
+			// 	border: 5px solid transparent /* Прозрачные границы */
+			// 	border-bottom: 5px solid #fff /* Добавляем треугольник */
+			// 	transition: all 0.5s
+			&:hover
+				color: $redColor
+				&:after
+					bottom: 46px
+
+
+.po-mp
+	display: flex
+	align-items: flex-end
+	position: absolute
+	bottom: 0
+	right: 6.5%
+	.delimiter
+		height: 1px
+		background: rgba( 255, 255, 255, 0.2)
+		padding: 0
+		margin: 20px 0
+	div
+		position: relative
+		padding: 55px 50px
+		color: #fff
+		h1
+			font-size: $main_size + 20px
+			font-weight: 400
+		a 
+			display: block
+			position: absolute
+			left: 50px
+			bottom: 50px
+			color: #fff
+			background: $grayColor
+			width: 85px
+			line-height: 45px
+			text-align: center
+			font-weight: 600
+			&:hover
+				color: $grayColor
+				background: #fff
+				font-weight: 900
+	.play-online
+		background: $redColor
+		width: 210px
+		height: 250px
+	.most-popular
+		background: #003770
+		width: 260px
+		height: 320px
+
+
+
+.services 
+	display: flex
+	flex-wrap: wrap
+	align-items: center
+	justify-content: center
+	max-width: 100%
+	background: $grayColor
+	overflow: hidden
+	.service-box
+		width: 230px
+		height: 340px
+		display: flex
+		flex-direction: column
+		align-items: center
+		position: relative
+		margin: 70px 25px
+		&:hover
+			.service-icon
+				border-color: rgba( 255, 255, 255, 0.6)
+			a 
+				color: #B2171D
+				background: #fff
+				font-weight: 900
+		.service-icon
+			width: 133px
+			height: 133px
+			border: 5px solid #3C3C3C
+			border-radius: 50%
+			margin-bottom: 30px
+			background: url('../img/service-icons.png') no-repeat
+		h2
+			color: #fff
+			margin-bottom: 15px
+			font-size: $main_size + 4
+		p 
+			width: 230px
+			color: $colorP
+			text-align: center
+			margin-bottom: 30px
+		a 
+			display: block
+			color: #fff
+			background: #B2171D
+			width: 85px
+			line-height: 45px
+			text-align: center
+			font-weight: 600
+	.box-1
+		&:hover
+			.icon-1
+				background-position: 0 -132px
+	.box-2
+		.icon-2
+			background-position: -132px 0
+		&:hover
+			.icon-2
+				background-position: -132px -132px
+	.box-3
+		.icon-3
+			background-position: -268px 0
+		&:hover
+			.icon-3
+				background-position: -268px -132px
+	.box-4
+		.icon-4
+			background-position: -405px 0
+		&:hover
+			.icon-4
+				background-position: -405px -132px
+
+.xgames-block
+	display: flex
+	flex-wrap: wrap
+	align-items: center
+	justify-content: space-between
+	max-width: 100%
+	padding: 20px 80px
+	background: $grayColorDark
+	.welcome
+		width: 500px
+		margin-left: -80px
+		h1
+			color: $redColor
+			font-size: $main-size + 44
+		p 
+			color: $colorP
+			margin: 20px 0
+			font-size: $main-size + 2
+			&:nth-child(2)
+				color: $redColor
+				font-size: $main_size + 18
+				font-weight: 400
+				margin-top: 0
+			&:nth-child(3)
+				color: #B3B3B3
+				font-size: $main-size + 16
+				font-weight: 400
+	.first-blog-news
+		width: 250px
+		div
+			margin: 25px 0
+			&:nth-child(1)
+				border-bottom: 1px solid rgba( 255, 255, 255, 0.2)
+				padding-bottom: 25px
+		h3
+			color: $redColor
+			font-size: $main_size + 6
+			line-height: 30px
+		p 
+			color: $colorP
+		a 
+			display: block
+			color: #fff
+			font-size: $main_size + 6
+			margin-bottom: 15px
+			&:hover
+				color: $redColor
+.more
+	display: block
+	width: 100px
+	background: url('../img/arrowRR.png') no-repeat
+	padding-left: 20px
+	background-position: 0 7px
+	font-size: $main-size + 2 !important
+	color: #fff
+	&:hover
+		background: url('../img/arrowWW.png') no-repeat
+		background-position: 0 7px
+		color: $redColor
+
+.advantage
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	background: $grayColor
+	padding: 30px 0
+	.advantage-box
+		display: flex
+		margin: 20px
+		.info-box 
+			width: 260px
+		img
+			margin-right: 10px
+		h3 
+			font-size: $main_size + 4
+			color: #fff
+			margin-bottom: 10px
+		p 
+			color: $colorP
+			margin-bottom: 10px
+
+.soc-network
+	display: flex
+	align-items: center
+	justify-content: flex-end
+	flex-wrap: wrap
+	background: $grayColorDark no-repeat
+	background-image: url(../img/au.jpg)
+	background-position: -20px 0
+	height: 253px
+	.au 
+		width: 296px
+		margin: 40px
+		h3 
+			font-size: $main_size + 4
+			color: #fff
+			margin-bottom: 15px
+		p 
+			color: $colorP
+			line-height: 22px
+			a 
+				display: inline-block
+				width: 11px
+				height: 11px
+				margin-left: 5px
+				background: url('../img/arrowRR.png') no-repeat
+				&:hover
+					background: url('../img/arrowWW.png') no-repeat
+		
+	.social
+		margin: 30px 100px 30px 40px
+		h3
+			font-size: $main_size + 4
+			color: #fff
+			margin-bottom: 25px
+		img
+			transition: all 0.3s
+			&:hover
+				opacity: 0.7
+.v-line
+		height: 100px
+		width: 1px
+		background: rgba( 255, 255, 255, 0.3)
+		margin: 0 20px
+
+footer
+	background: $grayColor
+	padding: 40px 100px 120px
+	position: relative
+	overflow: hidden
+	.contact-detalis
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: space-around
+		.adress
+			width: 250px
+			padding-left: 65px
+			background: url('../img/icon-address.png') no-repeat
+			p 
+				color: $colorP
+				font-weight: 600
+			img
+				margin-right: 20px
+		.email
+			a 
+				display: block
+				padding-left: 65px
+				background: url('../img/icon-email.png') no-repeat
+				color: $redColor
+				font-size: $main_size + 4
+				line-height: 38px
+				&:hover
+					color: #fff 
+					background: url('../img/icon-email-hover.png') no-repeat
+		.company
+			p 
+				color: $colorP
+			span
+				color: $redColor
+		.v-line
+			height: 60px
+
+		.adress, .email, .company
+			margin: 20px
+
+	.back
+		position: absolute
+		bottom: 0
+		left: 50%
+		margin-left: -28.5px
+		a 
+			display: block
+			width: 57px
+			height: 50px
+			background: url('../img/back.png')
+			transition: all 0.7s
+			&:hover
+				width: 57px
+				height: 50px
+				background: url('../img/back-hover.png')
+
+
+//burger menu
+
+.menuTwo
+  width: 35px;
+  height: 30px;
+  margin: 10px 40px;
+  position: relative;
+  cursor: pointer;
+  display: none
+
+
+.menuTwo span
+  background-color: #fff
+  position: absolute;
+  border-radius: 2px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+
+.menuTwo span:nth-child(1)
+  width: 100%;
+  height:  4px;
+  display: block;
+  top: 0px;
+  left: 0px;
+
+.menuTwo span:nth-child(2)
+  width: 100%;
+  height:  4px;
+  display: block;
+  top: 13px;
+  left: 0px;
+
+.menuTwo span:nth-child(3)
+  width: 100%;
+  height:  4px;
+  display: block;
+  bottom: 0px;
+  left: 0px;
+
+.menuTwo:not(.clickMenuTow):hover span:nth-child(1)
+  width: 100%;
+  height:  4px;
+  display: block;
+  top: -2px;
+  left: 0px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+
+.menuTwo:not(.clickMenuTow):hover span:nth-child(2)
+  width: 100%;
+  height:  4px;
+  display: block;
+  top: 13px;
+  left: 0px;
+  transition: .4s cubic-bezier(.8, .5, .2, 1.4);
+
+.menuTwo:not(.clickMenuTow):hover span:nth-child(3)
+  width: 100%;
+  height:  4px;
+  display: block;
+  bottom: -2px;
+  left: 0px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+
+.clickMenuTow span:nth-child(1)
+  left: 3px
+  top: 12px;
+  width: 30px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  transform: rotate(90deg);
+  transition-delay: 150ms;
+
+.clickMenuTow span:nth-child(2)
+  left: 2px
+  top: 20px;
+  width: 20px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  transform: rotate(45deg);
+  transition-delay: 50ms;
+
+.clickMenuTow span:nth-child(3)
+  left: 14px
+  top: 20px;
+  width: 20px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  transform: rotate(-45deg);
+  transition-delay: 100ms;
+
+
+.menuS
+	// height: 205px !important
+	// z-index: 2 !important
+	// overflow: visible !important
+	opacity: 1 !important
